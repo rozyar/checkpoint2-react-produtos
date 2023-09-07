@@ -1,7 +1,11 @@
+import './Home-module.css'
+
 export default function Home(){
      return(
         <>
-            <h1>HOME</h1>            
+            <div className="home-container">
+                <h1>Oi</h1>
+            </div>          
         </>
      )
 }
