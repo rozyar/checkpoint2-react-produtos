@@ -1,5 +1,5 @@
-import {Link, Link as a} from 'react-router-dom'
-import cart from '../assets/shopping-cart.png'
+import {Link} from 'react-router-dom'
+import cart from '../../assets/shopping-cart.png'
 import './Header-module.css'
 
 export default function Header(){
@@ -8,7 +8,7 @@ export default function Header(){
             <div className="header-container"> 
                 
                 <div className="logo">
-                    <img src={cart} alt="black hole" width={60} height={60}/>
+                    <img src={cart} alt="cart" width={60} height={60}/>
                 </div>
             
                 <div className='menu'>

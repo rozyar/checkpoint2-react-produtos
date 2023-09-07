@@ -7,7 +7,7 @@ import App from './App.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 //imports das rotas
 import Home from './routes/Home.jsx'
-import Product from './components/Product.jsx'
+import Product from './components/Product/Product.jsx'
 import Error404 from './routes/Error404.jsx'
 
 
