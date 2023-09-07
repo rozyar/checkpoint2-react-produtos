@@ -1,6 +1,6 @@
 import {Link, Link as a} from 'react-router-dom'
 import cart from '../assets/shopping-cart.png'
-import './Header.css'
+import './Header-module.css'
 
 export default function Header(){
     return(
@@ -14,8 +14,7 @@ export default function Header(){
                 <div className='menu'>
                     <ul className='menu-items'>
                         <li><Link>Home</Link></li>
-                        <li><Link>Produto</Link></li>
-                        <li><Link>Produto</Link></li>
+                        <li><Link>Aparelhos</Link></li>
                     </ul>
                 </div>
             </div>
