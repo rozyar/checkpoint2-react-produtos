@@ -5,7 +5,7 @@ import './Header-module.css'
 export default function Header(){
     return(
         <>
-            <div className="container"> 
+            <div className="header-container"> 
                 
                 <div className="logo">
                     <img src={cart} alt="black hole" width={60} height={60}/>
