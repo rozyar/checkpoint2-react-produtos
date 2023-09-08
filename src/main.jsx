@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {path: '/',  element: <Home/>},
       {path: '/aparelhos',  element:  <Aparelhos/>},
-      {path: '/vizualizar/produtos/:id',  element: <VizualizarProduto/>},
+      {path: '/aparelhos/vizualizar/produtos/:id',  element: <VizualizarProduto/>},
     ]}
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
