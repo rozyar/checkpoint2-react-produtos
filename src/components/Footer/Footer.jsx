@@ -18,7 +18,6 @@ export default function Footer() {
                     </ul>
                 </div>
                     <p id='footer-text'>@© 2023 Produtos do professor Ale. Todos os direitos reservados.</p>
-            
             </div>
         </>
     )
