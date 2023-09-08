@@ -13,8 +13,8 @@ export default function Header(){
             
                 <div className='menu'>
                     <ul className='menu-items'>
-                        <li><Link>Home</Link></li>
-                        <li><Link>Aparelhos</Link></li>
+                        <li><Link to={`/`}>Home</Link></li>
+                        <li><Link to={`/aparelhos`}>Aparelhos</Link></li>
                     </ul>
                 </div>
             </div>
