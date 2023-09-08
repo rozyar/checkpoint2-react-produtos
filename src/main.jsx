@@ -4,11 +4,12 @@ import App from './App.jsx'
 
 
 
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 //imports das rotas
-import Home from './routes/Home.jsx'
-import Product from './components/Product.jsx'
 import Error404 from './routes/Error404.jsx'
+import Home from './routes/Home.jsx'
+import VizualizarProduto from './routes/VizualizarProduto.jsx'
+import Aparelhos from './routes/Aparelhos.jsx'
 
 
 const router = createBrowserRouter([
@@ -17,7 +18,8 @@ const router = createBrowserRouter([
     errorElement: <Error404/>,
     children: [
       {path: '/',  element: <Home/>},
-      {path: '/produtos',  element: <Product/>},
+      {path: '/aparelhos',  element:  <Aparelhos/>},
+      {path: '/aparelhos/vizualizar/produtos/:id',  element: <VizualizarProduto/>},
     ]}
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
