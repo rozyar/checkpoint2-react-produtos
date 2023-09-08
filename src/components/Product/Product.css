@@ -6,14 +6,14 @@
     align-items: center;
     margin: 40px;
     width: 280px;
-    height: 400px;
+    height: 410px;
     border-radius: 20px;
     padding: 5px;
 }
 
 .product-card-image{
     margin-top: 20px;
-    width: 240px;
+    width: 200px;
     height: 200px;
     object-fit: cover;
 }
