@@ -2,7 +2,7 @@ import Iphone from '../../assets/iphone14.jpg'
 import Xiaomi from '../../assets/xiaomi.jpg'
 import S21 from '../../assets/S21.jpg'
 import S7 from '../../assets/S7.jpg'
-import E30 from '../../assets/E30.jpg'
+import E30 from '../../assets/E30.jpeg'
 
 export const ListProduct = [
     {
